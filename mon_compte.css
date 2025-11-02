@@ -1,0 +1,151 @@
+header{
+    text-align: center;
+}
+
+.container{
+    text-align:center;
+}
+
+
+nav.nav li{
+    color:black;
+}
+
+nav.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.button{
+    border-radius: 999px;
+}
+
+.blanc{
+    color:#ffff;
+}
+
+.bleu{
+    color: #004aad;
+}
+
+.rouge{
+    color: rgb(204, 40, 62);
+}
+
+.background-beige {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#efe6d7;
+    border: 5px dashed #ffff;
+}
+
+
+nav.nav-en-colonne {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    width: 50%;
+    padding-left: 70px;
+}
+
+.couleur3{
+    color:#9db6b2;
+}
+
+#your-email{
+    border-radius: 999px;
+
+}
+
+
+body{
+    background-color:#9db6b2;
+}
+
+.habillage{
+    width: auto; /* largeur en pixel de ta photo */
+    height: 200px;
+}
+
+.compte{
+    list-style: none;
+    
+}
+
+.droite{
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 80px;
+    background-color:#efe6d7;
+    border: 5px dashed #ffff;
+}
+
+.image{
+    float: right;
+    width: 250px; /* largeur en pixel de ta photo */
+    height: 310px; /* hauteur en pixel de ta photo */
+    margin-right: 10px;
+}
+
+
+.img2{
+    width: 10%;
+    padding-top: 30px;
+}
+
+#cart-container table{
+    border-collapse: collapse;
+    table-layout:fixed;
+    white-space: nowrap ;
+
+}
+
+#cart-container table thead{
+    font-weight: 400;
+}
+
+#cart-container table thead td{
+    background-color: #9db6b2;
+    color:black;
+    border: 5px dashed ghostwhite;
+    padding: 6px 0;
+
+}
+
+#cart-container table td{
+    background-color: #9db6b2;
+    border: 5px dashed ghostwhite;
+    text-align: center;
+}
+
+#cart-container table td:nth-child(1){
+    width: 100px; 
+}
+
+#cart-container table td:nth-child(2){
+    width: 100px; 
+}
+
+
+#cart-container table td:nth-child(3){
+    width: 100px; 
+}
+
+#cart-container table td:nth-child(4){
+    width: 200px; 
+}
+
+#cart-container table td:nth-child(5){
+    width: 200px; 
+}
+
+
+
+
+#cart-container table tbody i{
+    color:#efe6d7;
+}
+
